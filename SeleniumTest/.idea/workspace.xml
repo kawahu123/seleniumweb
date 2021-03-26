@@ -32,8 +32,8 @@
       <file leaf-file-name="ContactPOTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ceshiren/hogwarts/web/ContactPOTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="808">
-              <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+            <state relative-caret-position="817">
+              <caret line="50" column="19" lean-forward="false" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasePage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BasePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ceshiren/hogwarts/web/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="774">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="0">
+              <caret line="0" column="34" lean-forward="true" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#294#295#0" expanded="true" />
@@ -59,17 +59,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactPage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ContactPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ceshiren/hogwarts/web/ContactPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="679">
-              <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+            <state relative-caret-position="722">
+              <caret line="54" column="17" lean-forward="false" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#644#645#0" expanded="true" />
-                <element signature="e#671#672#0" expanded="true" />
-                <element signature="e#798#799#0" expanded="true" />
-                <element signature="e#825#826#0" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
+                <element signature="e#662#663#0" expanded="true" />
+                <element signature="e#789#790#0" expanded="true" />
+                <element signature="e#816#817#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,8 +78,8 @@
       <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ceshiren/hogwarts/web/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1410">
-              <caret line="70" column="34" lean-forward="false" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+            <state relative-caret-position="1324">
+              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,10 +113,10 @@
         <option value="$PROJECT_DIR$/src/test/java/com/ceshiren/hogwarts/web/Testweb.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ceshiren/hogwarts/web/ContactTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ceshiren/hogwarts/web/ContactClassicTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ceshiren/hogwarts/web/ContactPOTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ceshiren/hogwarts/web/BasePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ceshiren/hogwarts/web/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ceshiren/hogwarts/web/ContactPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ceshiren/hogwarts/web/ContactPOTest.java" />
       </list>
     </option>
   </component>
@@ -303,7 +303,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ContactPOTest.testDepartSearchChain">
+  <component name="RunManager" selected="JUnit.ContactPOTest.testDepartAdd">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -375,31 +375,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ContactClassicTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ceshiren.hogwarts.web.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SeleniumTest" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ceshiren.hogwarts.web" />
-      <option name="MAIN_CLASS_NAME" value="com.ceshiren.hogwarts.web.ContactClassicTest" />
-      <option name="METHOD_NAME" value="testLogin" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="ContactClassicTest.testLogined" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -413,6 +388,31 @@
       <option name="PACKAGE_NAME" value="com.ceshiren.hogwarts.web" />
       <option name="MAIN_CLASS_NAME" value="com.ceshiren.hogwarts.web.ContactClassicTest" />
       <option name="METHOD_NAME" value="testLogined" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ContactPOTest.testDepartAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ceshiren.hogwarts.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SeleniumTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ceshiren.hogwarts.web" />
+      <option name="MAIN_CLASS_NAME" value="com.ceshiren.hogwarts.web.ContactPOTest" />
+      <option name="METHOD_NAME" value="testDepartAdd" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -511,19 +511,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ContactClassicTest.testLogin" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ContactClassicTest.testLogined" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ContactClassicTest.contackAdd" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ContactClassicTest.departmentSearch" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ContactPOTest.testDepartSearchChain" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ContactClassicTest.testLogined" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ContactClassicTest.contackAdd" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ContactClassicTest.departmentSearch" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ContactPOTest.testDepartSearchChain" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ContactPOTest.testDepartAdd" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ContactPOTest.testDepartSearchChain" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ContactClassicTest.departmentSearch" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ContactClassicTest.contackAdd" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ContactClassicTest.testLogined" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ContactClassicTest.testLogin" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ContactPOTest.testDepartAdd" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ContactPOTest.testDepartSearchChain" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ContactClassicTest.departmentSearch" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ContactClassicTest.contackAdd" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ContactClassicTest.testLogined" />
       </list>
     </recent_temporary>
   </component>
@@ -543,11 +543,20 @@
       <workItem from="1615828992969" duration="2207000" />
       <workItem from="1615831980719" duration="2357000" />
       <workItem from="1616306936607" duration="12019000" />
-      <workItem from="1616431159517" duration="17948000" />
+      <workItem from="1616431159517" duration="21512000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="ContactPOTest_testDepartAdd - 2021.03.26 at 02h 16m 31s.xml">
+      <configuration name="ContactPOTest.testDepartAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContactPOTest_testDepartAdd - 2021.03.26 at 02h 17m 36s.xml">
+      <configuration name="ContactPOTest.testDepartAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContactPOTest_testDepartAdd - 2021.03.26 at 02h 18m 13s.xml">
+      <configuration name="ContactPOTest.testDepartAdd" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="ContactPOTest_testDepartSearchChain - 2021.03.25 at 00h 42m 08s.xml">
       <configuration name="ContactPOTest.testDepartSearchChain" configurationId="JUnit" />
     </history-entry>
@@ -557,17 +566,8 @@
     <history-entry file="ContactPOTest_testDepartSearchChain - 2021.03.25 at 00h 43m 29s.xml">
       <configuration name="ContactPOTest.testDepartSearchChain" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContactTest_departmentSearch - 2021.03.24 at 00h 56m 03s.xml">
-      <configuration name="ContactTest.departmentSearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContactTest_departmentSearch - 2021.03.24 at 01h 00m 05s.xml">
-      <configuration name="ContactTest.departmentSearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContactTest_departmentSearch - 2021.03.24 at 01h 00m 28s.xml">
-      <configuration name="ContactTest.departmentSearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContactTest_departmentSearch - 2021.03.24 at 01h 02m 12s.xml">
-      <configuration name="ContactTest.departmentSearch" configurationId="JUnit" />
+    <history-entry file="ContactPOTest_testDepartSearchChain - 2021.03.26 at 02h 16m 53s.xml">
+      <configuration name="ContactPOTest.testDepartSearchChain" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ContactTest_departmentSearch - 2021.03.24 at 01h 06m 20s.xml">
       <configuration name="ContactTest.departmentSearch" configurationId="JUnit" />
@@ -580,10 +580,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34531000" />
+    <option name="totallyTimeSpent" value="38095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="5987" y="793" width="3866" height="2106" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -593,9 +594,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978156" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21097496" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -841,44 +842,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ceshiren/hogwarts/web/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1410">
-          <caret line="70" column="34" lean-forward="false" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ceshiren/hogwarts/web/ContactPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ceshiren/hogwarts/web/ContactPOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="808">
-          <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ceshiren/hogwarts/web/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="34" lean-forward="true" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#294#295#0" expanded="true" />
@@ -887,6 +854,40 @@
             <element signature="e#431#432#0" expanded="true" />
             <element signature="e#473#474#0" expanded="true" />
             <element signature="e#529#530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ceshiren/hogwarts/web/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1324">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ceshiren/hogwarts/web/ContactPOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="50" column="19" lean-forward="false" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ceshiren/hogwarts/web/ContactPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="54" column="17" lean-forward="false" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
           </folding>
         </state>
       </provider>

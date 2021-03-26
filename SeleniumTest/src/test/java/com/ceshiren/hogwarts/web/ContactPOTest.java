@@ -1,5 +1,6 @@
 package com.ceshiren.hogwarts.web;
 
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
@@ -14,6 +15,13 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
  * @date Created in 1:39 2021-03-24
  */
 public class ContactPOTest {
+
+    private static MainPage main;
+
+    @BeforeAll
+    static void beforAll() throws IOException, InterruptedException {
+        main = new MainPage();
+    }
 
     @Test
     void testAddMember() throws IOException, InterruptedException {
@@ -34,4 +42,13 @@ public class ContactPOTest {
     void testDepartSearchChain() throws IOException, InterruptedException {
         assertTrue(new MainPage().contact().searchDepart("销售部").getPartyInfo().contains("无任何成员"));
     }
+
+//    todo:部门创建，部门搜索，部门的更新，部门内部添加成员，导入成员
+
+    @Test
+    void testDepartAdd(){
+        String departName = "depart_0325";
+        assertTrue(main.contact().addDepart(departName).searchDepart(departName).getPartyInfo().contains(departName));
+    }
+
 }

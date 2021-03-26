@@ -3,8 +3,6 @@ package com.ceshiren.hogwarts.web;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import java.io.IOException;
-
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
@@ -16,6 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
  */
 public class ContactPage extends BasePage{
     //PO原则2，不要暴露页面内部实现
+    //parterInfo定位符
     private By parterInfo=By.cssSelector(".js_party_info");
 
     public ContactPage(WebDriver driver) {
@@ -52,4 +51,8 @@ public class ContactPage extends BasePage{
         return content;
     }
 
+    public ContactPage addDepart(String departName) {
+//      todo:添加部门
+        return this;
+    }
 }
