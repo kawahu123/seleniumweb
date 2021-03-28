@@ -28,7 +28,7 @@ public class MainPage extends BasePage {
     void needLogin() throws IOException, InterruptedException {
         //扫码登录
         driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(15,TimeUnit.SECONDS);
         driver.get("https://work.weixin.qq.com/wework_admin/frame");
 
         Thread.sleep(15000);

@@ -21,6 +21,9 @@ public class ContactPOTest {
     @BeforeAll
     static void beforAll() throws IOException, InterruptedException {
         main = new MainPage();
+        //清理数据
+        main.contact().clearAlldeparts();
+        //为什么不放在teardown，如果中途停止，不能保证一定能执行，下次操作报错
     }
 
     @Test
