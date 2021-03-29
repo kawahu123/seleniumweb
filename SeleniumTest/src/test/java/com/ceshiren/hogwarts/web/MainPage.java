@@ -57,6 +57,7 @@ public class MainPage extends BasePage {
             });
 
             driver.navigate().refresh();
+            driver.manage().window().maximize();
         }else {
             needLogin();
         }

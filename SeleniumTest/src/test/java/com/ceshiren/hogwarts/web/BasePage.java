@@ -24,6 +24,9 @@ public class BasePage {
     void click(By by){
         driver.findElement(by).click();
     }
+    void clicks(By by,int index){
+        driver.findElements(by).get(index).click();
+    }
 
     void sendKeys(By by,String content){
         driver.findElement(by).sendKeys(content);

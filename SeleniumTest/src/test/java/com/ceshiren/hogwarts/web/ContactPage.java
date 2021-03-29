@@ -2,6 +2,9 @@ package com.ceshiren.hogwarts.web;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -37,10 +40,12 @@ public class ContactPage extends BasePage{
         //用公共方法代表页面所提供的功能，PO原则1
         //PO原则3，通常不要在PO内加断言
         sendKeys(By.id("memberSearchInput"),departName);
+        System.out.println("******************");
         String content=driver.findElement(parterInfo).getText();
         System.out.println(content);
         //确保目标对象已经加载完毕
-        click(By.cssSelector(".ww_icon_AddMember"));
+//        click(By.cssSelector(".ww_icon_AddMember"));
+        System.out.println("******************");
         return this;
     }
 
@@ -65,11 +70,31 @@ public class ContactPage extends BasePage{
         return this;
     }
 
-    public void  clearAlldeparts(){
-        searchDepart("定向班四期");
-        //todo:删除所有的成员
+    public void  clearAlldeparts() throws InterruptedException {
+        //点击搜索，并查找"定向班四期"
+        //searchDepart("定向班四期");
+        //点击搜索
+        click(By.id("memberSearchInput"));
+        sendKeys(By.id("memberSearchInput"),"定向班四期");
+        //先判断“定向班四期”部门下是否有学员: a1有则先删除所有的成员,a2再删它的子部门；
+        //没有成员则，判断是否有它的子部门: b1有删除子部门，b2无则不删除
+        String text_Has_Member = driver.findElements(By.cssSelector(".js_has_member")).get(0).getText();
+        if(text_Has_Member.contains("姓名") || text_Has_Member.contains("职务") || text_Has_Member.contains("部门") || text_Has_Member.contains("手机") || text_Has_Member.contains("邮箱") ){
+            //a1如果有成员先删除成员，
+            clicks(By.cssSelector(".ww_checkbox"),0);
+            clicks(By.cssSelector(".js_delete"),0);
+            click(By.linkText("确认"));
+            click(By.id("clearMemberSearchInput"));
+            System.out.println("删除成员成功");
+            //a2再删它的子部门
+            /*if(){
 
-        //todo：删除所有的部门
+            }*/
+        }else {
+            System.out.println("无成员，不用删除");
+            click(By.id("clearMemberSearchInput"));
+        }
+
     }
 
 }
